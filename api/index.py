@@ -9,17 +9,17 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/api/')
 def catch_all():
-  API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
+  api_key = request.args.get('api_key') or os.environ['GOOGLE_MAPS_API_KEY']
 
-  if not API_KEY:
-    return jsonify({"error": "GOOGLE_MAPS_API_KEY env variable not set"})
+  if not api_key:
+    return jsonify({"error": "Google Maps API key not passed, please set it using api_key query argument."})
 
   place_id = request.args.get('place_id')
   if not place_id:
     return jsonify({"error": "Query argument place_id is required, received '%s'" % place_id})
 
   try:
-    result = populartimes.get_id(api_key=API_KEY, place_id=place_id)
+    result = populartimes.get_id(api_key=api_key, place_id=place_id)
   except Exception as e:
     print(e)
     return jsonify({"message": "Failed accessing the Google Maps SDK", "error": e})
