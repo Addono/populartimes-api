@@ -96,7 +96,7 @@ now secrets add google-maps-api-key "MY_GOOGLE_MAPS_API_KEY"
 
 Now you can deploy as normal and have the Google Maps API key be pre-provisioned. Users can still set the `api_key` on individual requests, which will overwrite the value you configured globally.
 
-## ✨ Contributors <a name = "contributors></a>
+## ✨ Contributors <a name = "contributors"></a>
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
