@@ -3,15 +3,15 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Table of Contents
+## 📝 Table of Contents
 + [About](#about)
 + [Getting Started](#getting_started)
 + [Deployment](#deployment)
 
-## About <a name = "about"></a>
+## 🧐 About <a name = "about"></a>
 A small HTTP server around [m-wrzru/populartimes](https://github.com/m-wrzr/populartimes) to access Google Maps popular times data from the Google Maps SDK. It is designed to run as a serverless function, so hosting a scalable version is trivial!
 
-## Getting Started <a name = "getting_started"></a>
+## 🎈 Usage <a name = "usage"></a>
 These instructions will get you started using the API. See [deployment](#deployment) for notes on how to deploy your own version.
 
 ### Prerequisites
@@ -71,7 +71,7 @@ _Note: Responses might not contain some fields, including `populartimes` and `ti
 }
 ```
 
-## Deployment <a name = "deployment"></a>
+## 🚀 Deployment <a name = "deployment"></a>
 
 ### Vercel
 To deploy your own version of the application run:
