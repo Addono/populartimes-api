@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/api/')
 def catch_all():
-  api_key = request.args.get('api_key') or os.environ['GOOGLE_MAPS_API_KEY']
+  api_key = request.args.get('api_key') or os.environ.get('GOOGLE_MAPS_API_KEY')
 
   if not api_key:
     return jsonify({"error": "Google Maps API key not passed, please set it using api_key query argument."})
