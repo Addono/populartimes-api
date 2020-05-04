@@ -73,22 +73,17 @@ _Note: Responses might not contain some fields, including `populartimes` and `ti
 ### Vercel
 To deploy your own version of the application run:
 ```bash
-now -e GOOGLE_MAPS_API_KEY=
-```
-
-If you want to set a default Google Maps API Key, then add this as a secret:
-```bash
-# Only needs to be done once per project
-now secrets add google-maps-api-key "MY_GOOGLE_MAPS_API_KEY"
-
-# Now you can deploy by running
 now
 ```
 
-Or pass it during deployment:
+#### Set API Key
+If you want to set a default Google Maps API Key, then you need to configure Vercel to use the `GOOGLE_MAPS_API_KEY` environment variable. It is recommended to use secrets, which can be achieved as such:
 ```bash
-now -e GOOGLE_MAPS_API_KEY="MY_GOOGLE_MAPS_API_KEY"
+# Create now.json
+cp now.template.json now.json
+
+# Only needs to be done once per project
+now secrets add google-maps-api-key "MY_GOOGLE_MAPS_API_KEY"
 ```
 
-
-
+Now you can deploy as normal and have the Google Maps API key be pre-provisioned. Users can still set the `api_key` on individual requests, which will overwrite the value you configured globally.
