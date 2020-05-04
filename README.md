@@ -7,6 +7,7 @@
 + [About](#about)
 + [Getting Started](#getting_started)
 + [Deployment](#deployment)
++ [Contributors](#contributors)
 
 ## 🧐 About <a name = "about"></a>
 A small HTTP server around [m-wrzru/populartimes](https://github.com/m-wrzr/populartimes) to access Google Maps popular times data from the Google Maps SDK. It is designed to run as a serverless function, so hosting a scalable version is trivial!
@@ -91,7 +92,7 @@ now secrets add google-maps-api-key "MY_GOOGLE_MAPS_API_KEY"
 
 Now you can deploy as normal and have the Google Maps API key be pre-provisioned. Users can still set the `api_key` on individual requests, which will overwrite the value you configured globally.
 
-## Contributors ✨
+## ✨ Contributors <a name = "contributors></a>
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
