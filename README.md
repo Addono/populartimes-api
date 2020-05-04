@@ -33,7 +33,9 @@ curl 'https://populartimes.now.sh/api/\?place_id\=$PLACE_ID\&api_key\=$API_KEY'
 #### Browser
 Go to [https://populartimes.now.sh/api/?place_id=ChIJSYuuSx9awokRyrrOFTGg0GY&api_key=YOUR_GOOGLE_MAPS_API_KEY](https://populartimes.now.sh/api/?place_id=ChIJSYuuSx9awokRyrrOFTGg0GY&api_key=YOUR_GOOGLE_MAPS_API_KEY) and replace `YOUR_GOOGLE_MAPS_API_KEY` with your Google Maps API Key.
 
-The resulting JSON  will look something like - note this is formatted for readability.
+The resulting JSON  will look something like - note this is formatted for readability. See [https://github.com/m-wrzr/populartimes#populartimesget_id](https://github.com/m-wrzr/populartimes#populartimesget_id) for more details on the format of the response.
+
+_Note: Responses might not contain some fields, including `populartimes` and `time_wait` if they are not available for the queried place._
 ```json
 {
   "address": "22 Warren St, New York, NY 10007, USA",
