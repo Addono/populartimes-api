@@ -1,12 +1,11 @@
 # Populartimes API
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![GitHub stars](https://img.shields.io/github/stars/Addono/populartimes-api?style=flat-square)](https://github.com/Addono/populartimes-api/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Addono/populartimes-api?style=flat-square)](https://github.com/Addono/populartimes-api/network)
+[![GitHub issues](https://img.shields.io/github/issues/Addono/populartimes-api?style=flat-square)](https://github.com/Addono/populartimes-api/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Addono/populartimes-api?style=flat-square)](https://github.com/Addono/populartimes-api/pulls)
+[![GitHub license](https://img.shields.io/github/license/Addono/populartimes-api?style=flat-square)](https://github.com/Addono/populartimes-api/blob/master/LICENSE)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![GitHub stars](https://img.shields.io/github/stars/Addono/populartimes-api?style=for-the-badge)](https://github.com/Addono/populartimes-api/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Addono/populartimes-api?style=for-the-badge)](https://github.com/Addono/populartimes-api/network)
-[![GitHub issues](https://img.shields.io/github/issues/Addono/populartimes-api?style=for-the-badge)](https://github.com/Addono/populartimes-api/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Addono/populartimes-api?style=for-the-badge)](https://github.com/Addono/populartimes-api/pulls)
-[![GitHub license](https://img.shields.io/github/license/Addono/populartimes-api?style=for-the-badge)](https://github.com/Addono/populartimes-api/blob/master/LICENSE)
 
 ## 📝 Table of Contents
 + [About](#about)
