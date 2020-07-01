@@ -14,7 +14,7 @@
 + [Contributors](#contributors)
 
 ## 🧐 About <a name = "about"></a>
-A small HTTP server around [m-wrzru/populartimes](https://github.com/m-wrzr/populartimes) to access Google Maps popular times data from the Google Maps SDK. It is designed to run as a serverless function, so hosting a scalable version is trivial!
+A small HTTP server around [m-wrzru/populartimes](https://github.com/m-wrzr/populartimes) to access Google Maps popular times data from the Google Maps SDK - which it does not provide by default 😕. It is designed to run as a serverless function, so hosting a scalable version is trivial!
 
 ## 🎈 Usage <a name = "usage"></a>
 These instructions will get you started using the API. See [deployment](#deployment) for notes on how to deploy your own version.
